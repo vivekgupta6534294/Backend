@@ -23,6 +23,7 @@ app.get('/',(request,response)=>{
     response.send("Hello");
 })
 
+// rough
 app.post('/api/cars',(request,response)=>{
     const {name,brand} = request.body;
     console.log(name);
