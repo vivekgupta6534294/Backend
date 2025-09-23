@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 
 // Routes
-app.get('/',(request,response)=>{
+app.get('/',=>{
     response.send("Hello");
 })
 
@@ -29,7 +29,4 @@ app.post('/api/cars',(request,response)=>{
     console.log(name);
     console.log(brand);
     response.send("Car Submitted Successfully");
-    
-
-
 })
