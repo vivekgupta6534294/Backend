@@ -1,0 +1,4 @@
+Every Path will be mapped with some controller 
+
+Create to do mapping : to do type ka object banao aur db mai store kro 
+
