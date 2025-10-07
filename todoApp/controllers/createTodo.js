@@ -19,7 +19,7 @@ exports.createTodo=async(req,res)=>{
     catch(err){
         console.error(err);
         console.log(err);
-        console.status(500)
+        res.status(500)
         .json({
             success:false,
             data : 'Internal Server Error',
